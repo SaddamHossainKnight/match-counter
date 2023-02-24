@@ -53,7 +53,7 @@ store.subscribe(
     if (state.value >= 0) {
       displayElement.textContent = state.value;
     } else {
-      displayElement.textContent = "Invalid ";
+      displayElement.textContent = "0";
     }
   })
 );
